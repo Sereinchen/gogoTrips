@@ -1,0 +1,41 @@
+{
+  "pages": [
+    { "path": "pages/home/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/trips/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/companions/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/discover/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/profile/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/trips/new", "style": { "navigationBarTitleText": "AI 规划旅行" } },
+    { "path": "pages/trips/detail", "style": { "navigationBarTitleText": "行程详情" } },
+    { "path": "pages/trips/edit", "style": { "navigationBarTitleText": "编辑行程" } },
+    { "path": "pages/companions/intent", "style": { "navigationBarTitleText": "旅行意向" } },
+    { "path": "pages/companions/person", "style": { "navigationBarTitleText": "搭子资料" } },
+    { "path": "pages/companions/activity-new", "style": { "navigationBarTitleText": "发布活动" } },
+    { "path": "pages/companions/activity-detail", "style": { "navigationBarTitleText": "活动详情" } },
+    { "path": "pages/companions/applications", "style": { "navigationBarTitleText": "我的申请" } },
+    { "path": "pages/companions/team", "style": { "navigationBarTitleText": "小队空间" } },
+    { "path": "pages/companions/chat", "style": { "navigationBarTitleText": "小队聊天" } },
+    { "path": "pages/discover/post", "style": { "navigationBarTitleText": "攻略详情" } },
+    { "path": "pages/settings/privacy", "style": { "navigationBarTitleText": "隐私与安全" } },
+    { "path": "pages/auth/sign-in", "style": { "navigationBarTitleText": "登录" } }
+  ],
+  "tabBar": {
+    "color": "#6F807B",
+    "selectedColor": "#147D64",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/home/index", "text": "首页" },
+      { "pagePath": "pages/trips/index", "text": "行程" },
+      { "pagePath": "pages/companions/index", "text": "结伴" },
+      { "pagePath": "pages/discover/index", "text": "发现" },
+      { "pagePath": "pages/profile/index", "text": "我的" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "GoGo Trip",
+    "navigationBarBackgroundColor": "#F4F8F5",
+    "backgroundColor": "#F4F8F5"
+  }
+}
